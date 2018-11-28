@@ -5,5 +5,5 @@ def prime?(x)
     x % each == 0 ? count += 1 : nil
   end
   
-  return count == 1 ? true : false
+  count == 1 ? true : false
 end
